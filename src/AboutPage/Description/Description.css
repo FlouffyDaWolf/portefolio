@@ -1,0 +1,10 @@
+.Description {
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Description div {
+    color: rgb(162, 207, 109);
+}

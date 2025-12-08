@@ -1,0 +1,19 @@
+.AboutPage {
+    flex-direction: column;
+}
+
+.AboutPage div {
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+    transform: translateY(-2vh);
+
+    animation: showSections 1.2s ease 0.4s 1 forwards;
+}
+
+@keyframes showSections {
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

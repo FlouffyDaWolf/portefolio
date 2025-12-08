@@ -1,0 +1,46 @@
+.Intro {
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Intro .Box {
+    background-color: rgba(186, 175, 158, 0.15);
+    backdrop-filter: blur(20px);
+    border-radius: 60px;
+    box-shadow: 0 0 16px 8px rgba(186, 175, 158, 0.15);
+}
+
+.Intro div {
+    color: rgb(162, 207, 109);
+}
+
+.Intro span {
+    color: rgba(186, 175, 158, 0.8);
+    font-weight: bold;
+    background-color: rgba(186, 175, 158, 0.15);
+    box-shadow: 0 0 12px 6px rgba(186, 175, 158, 0.15);
+    border-radius: 20px;
+    padding: 0 4px;
+}
+
+.Intro img {
+    grid-area: 1 / 1;
+    height: 46vh;
+    width: 32vw;
+    object-fit: cover;
+
+    opacity: 0.7;
+    border-radius: 50px;
+}
+
+.Intro img:first-child {
+    transform: translate(-1px, -1px);
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
+}
+
+.Intro img:last-child {
+    transform: translate(1px, 1px);
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}

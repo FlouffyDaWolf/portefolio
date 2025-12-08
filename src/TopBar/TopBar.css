@@ -1,0 +1,18 @@
+.TopBar {
+    position: fixed;
+    height: 6%;
+    width: 40vw;
+    z-index: 10;
+
+    left: calc(50vw - 20vw);
+    
+    background-color: rgba(48, 45, 40, 0.4);
+    backdrop-filter: blur(10px);
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
