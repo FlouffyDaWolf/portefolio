@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portefolio/static/css/main.4cd62f92.css",
+    "main.js": "/portefolio/static/js/main.1d6b84f8.js",
+    "static/media/Fredoka-Regular.ttf": "/portefolio/static/media/Fredoka-Regular.11ed755dadcee4fade13.ttf",
+    "index.html": "/portefolio/index.html",
+    "main.4cd62f92.css.map": "/portefolio/static/css/main.4cd62f92.css.map",
+    "main.1d6b84f8.js.map": "/portefolio/static/js/main.1d6b84f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cd62f92.css",
+    "static/js/main.1d6b84f8.js"
+  ]
+}
