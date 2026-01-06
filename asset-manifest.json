@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portefolio/static/css/main.fb81811c.css",
-    "main.js": "/portefolio/static/js/main.52914ad7.js",
+    "main.css": "/portefolio/static/css/main.b2d37708.css",
+    "main.js": "/portefolio/static/js/main.55831ba2.js",
     "static/media/Fredoka-Regular.ttf": "/portefolio/static/media/Fredoka-Regular.11ed755dadcee4fade13.ttf",
     "index.html": "/portefolio/index.html",
-    "main.fb81811c.css.map": "/portefolio/static/css/main.fb81811c.css.map",
-    "main.52914ad7.js.map": "/portefolio/static/js/main.52914ad7.js.map"
+    "main.b2d37708.css.map": "/portefolio/static/css/main.b2d37708.css.map",
+    "main.55831ba2.js.map": "/portefolio/static/js/main.55831ba2.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb81811c.css",
-    "static/js/main.52914ad7.js"
+    "static/css/main.b2d37708.css",
+    "static/js/main.55831ba2.js"
   ]
 }
