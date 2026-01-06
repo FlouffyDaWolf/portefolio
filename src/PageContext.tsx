@@ -12,6 +12,7 @@ export function PageProvider({ children }: { children: React.ReactNode }) {
   const [hover, setHover] = useState(false);
   function ChangePage(pageNum: number)
   {
+    window.scrollTo(0,0);
     switch(pageNum)
     {
       case 1:

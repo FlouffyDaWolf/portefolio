@@ -1,0 +1,38 @@
+.Skills {
+    height: 40vh !important;
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Skills * {
+    color: rgba(186, 175, 158, 0.8);
+}
+
+.Skills > div {
+    height: 80%;
+    width: 32%;
+    margin: 24px;
+
+    background-color: rgba(186, 175, 158, 0.15);
+    box-shadow: 0 0 12px 6px rgba(186, 175, 158, 0.15);
+    border-radius: 20px;
+    padding: 16px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.Skills h3 {
+    margin-top: 0;
+}
+
+.Skills > div > div {
+    flex-grow: 1;
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}

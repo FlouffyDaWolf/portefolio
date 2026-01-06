@@ -4,13 +4,18 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/Img/smalwoopsiegreener.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Portefolio made using React"/>
+    <meta name="author" content="The one who the portfolio is for :)" />
+    <meta name="description" content="Portfolio made from my own hands using React :D"/>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Flouffy / Evan</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+        }
+    </script>
     <div id="root"></div>
   </body>
 </html>

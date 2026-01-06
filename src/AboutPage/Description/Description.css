@@ -1,10 +1,29 @@
 .Description {
-    flex-direction: row;
-    display: inline-flex;
+    flex-direction: column;
+    display: flex;
     align-items: center;
-    justify-content: space-around;
+    height: fit-content !important;
 }
 
-.Description div {
+.Description * {
     color: rgb(162, 207, 109);
+    margin: 0;
+}
+
+.Description .Title {
+    margin-top: 10vh;
+    height: 10vh;
+}
+
+.Description .Text {
+    margin: 10vh 10vw;
+    background-color: rgba(186, 175, 158, 0.15);
+    box-shadow: 0 0 12px 6px rgba(186, 175, 158, 0.15);
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+}
+
+.Description .Text h3 {
+    color: rgba(186, 175, 158, 0.8);
 }

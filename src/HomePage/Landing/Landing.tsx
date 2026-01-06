@@ -8,7 +8,7 @@ function Landing() {
   return (
     <div className="Landing">
       <h1><span>Hi</span> fellow friend !</h1>
-      <p>I'm a <span>developer</span>,</p>
+      <p>I'm a <span>software developer</span>,</p>
       <p>Or maybe <span>more</span> !</p>
       <button onClick={() => ChangePage(2)} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>Learn about me</button>
     </div>
