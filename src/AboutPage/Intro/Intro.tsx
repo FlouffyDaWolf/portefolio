@@ -12,7 +12,7 @@ function Intro() {
         <div style={{height: "fit-content", margin: "0"}}>
           <h1>I'm <span>Evan</span><br/> alias <span>Flouffy</span></h1>
           <h3>
-            I'm a <span>software developper</span> looking for <span>new horizons</span><br/><br/>
+            I'm a <span>software developer</span> looking for <span>new horizons</span><br/><br/>
             <span>Discovering</span> and <span>creating</span> are my <span>everyday hobbies</span>
           </h3>
         </div>

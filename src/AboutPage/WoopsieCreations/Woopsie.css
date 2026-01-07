@@ -2,10 +2,12 @@
     flex-direction: column;
     display: flex;
     align-items: center;
+    height: fit-content !important;
 }
 
 .Woopsie > h1 {
     margin-top: 12vh;
+    margin-bottom: 6vh;
     flex-grow: 1;
     text-align: center;
     color: rgb(162, 207, 109);
@@ -17,7 +19,7 @@
 }
 
 .Woopsie > div {
-    width: 80%;
+    width: 64%;
     height: fit-content;
     background-color: rgba(186, 175, 158, 0.15);
     box-shadow: 0 0 12px 6px rgba(186, 175, 158, 0.15);
@@ -29,7 +31,7 @@
 }
 
 .Woopsie img {
-    width: 100%;
+    width: 80%;
 }
 
 .Woopsie button {

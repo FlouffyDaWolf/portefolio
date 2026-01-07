@@ -12,7 +12,7 @@ function Woopsie() {
                 With friends, we decided to create Woopsie Creations !<br/>
                 An indi software development studio, to create games and software of all kinds.
             </h3>
-            <button onClick={() => window.location.href = 'https://github.com/Woopsie-Creations'} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>See more</button>
+            <button onClick={() => window.open('https://github.com/Woopsie-Creations', '_blank')} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>See more</button>
         </div>
     </div>
   );
