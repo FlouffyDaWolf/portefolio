@@ -1,0 +1,59 @@
+.ContactPage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactPage .Box {
+    opacity: 0;
+    transform: translateY(-2vh);
+    animation: showSections 1.2s ease 0.4s 1 forwards;
+
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactPage .Box > h2, .ContactPage .Box > h3 {
+    margin: 0;
+    color: rgb(162, 207, 109);
+}
+
+.ContactPage .Box > h2 {
+    margin-top: 3%;
+}
+
+.ContactPage .Box > div {
+    height: fit-content;
+    margin: 4% 0;
+    padding: 0 2vw;
+    width: fit-content;
+    background-color: rgba(186, 175, 158, 0.15);
+    box-shadow: 0 0 12px 6px rgba(186, 175, 158, 0.15);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactPage .Box > div a {
+    margin: 2vw;
+    padding: 4px;
+    background-color: rgba(186, 175, 158, 0.4);
+    border-radius: 20px;
+    box-shadow: 0 0 6px 0 rgba(186, 175, 158, 0.4);
+}
+
+@keyframes showSections {
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
