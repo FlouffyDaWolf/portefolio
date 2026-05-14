@@ -1,5 +1,5 @@
 .ContactPage {
-    height: 100vh;
+    height: 84vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@
 .ContactPage .Box > div {
     height: fit-content;
     margin: 4% 0;
-    padding: 0 2vw;
+    padding: 2vw 2vw;
     width: fit-content;
     background-color: rgba(186, 175, 158, 0.15);
     box-shadow: 0 0 12px 6px rgba(186, 175, 158, 0.15);
@@ -44,12 +44,19 @@
 }
 
 .ContactPage .Box > div a {
-    margin: 2vw;
-    padding: 4px;
+    margin: 0px 1vw;
+    padding: 8px;
     background-color: rgba(186, 175, 158, 0.4);
     border-radius: 20px;
     box-shadow: 0 0 6px 0 rgba(186, 175, 158, 0.4);
 }
+
+.ContactPage .Box > div a img {
+    height: 8vh;
+    aspect-ratio: 1/1;
+}
+
+
 
 @keyframes showSections {
     100% {

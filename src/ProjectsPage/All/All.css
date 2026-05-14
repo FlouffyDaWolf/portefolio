@@ -1,0 +1,26 @@
+.All {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content !important;
+}
+
+.All > h2 {
+    color: rgba(162, 207, 109, 0.8);
+}
+
+.All .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8%;
+    row-gap: 5vh;
+}
+
+.All .item {
+    display: flex;
+    width: calc(100vw / 3 - 8%);
+    justify-content: center;
+    /* background-color: aqua; */
+}

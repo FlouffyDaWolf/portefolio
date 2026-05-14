@@ -17,9 +17,9 @@ function Description() {
             </div>
             <div className="Text">
                 <h3>
-                    I am a passionate developer always wanting to create new things.<br/>
+                    With my {age}yo, I am a passionate developer always wanting to create new things.<br/>
                     But my curiosity pushed me to learn more.<br/>
-                    Design, 3D modeling, art, all became part of my ever increasing knowledge.
+                    As my projects are very diverse, I can adapt to given environment<br/>
                 </h3>
             </div>
         </div>
